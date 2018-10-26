@@ -15,7 +15,7 @@ The scripts in this repo are used to load clinical trial data from [clinicaltria
   * Download clinical trial records using instructions [here](https://clinicaltrials.gov/ct2/resources/download#DownloadAllData). This will give you a ~1.4GB file, `AllPublicXML.zip`.
   * Unzip the file and place the resulting folder (`AllPublicXML`) alongside the scripts in this repo.
   * Edit the database connection settings at the top of `ingest.py` as needed. The database named with `db_name` should exist but you don't need to create any tables.
-  * run `$ python ingest.py AllPublicXML`. This will take a while--about 30 mins or more depending on the speed of your computer.
+  * run `$ python ingest.py AllPublicXML`. This will take a while--about an hour or more depending on the speed of your computer.
 
 ## Example Query
 
