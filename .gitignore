@@ -1,0 +1,6 @@
+.DS_Store
+*.csv
+data/**
+AllPublicXML*
+postgres_db/*
+notes.txt
